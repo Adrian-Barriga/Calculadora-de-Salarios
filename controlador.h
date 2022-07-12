@@ -3,7 +3,7 @@
 
 #include <QObject>
 
-#include"obrero.h"
+#include "obrero.h"
 
 //Definimos el valor por hora del salario en cada jornada
 

@@ -28,7 +28,7 @@
   </property>
   <property name="styleSheet">
    <string notr="true">background-color: rgb(176, 200, 190);
-background-color: rgb(25,127, 25);</string>
+background-color: rgb(161,85,75);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout_3">
@@ -77,6 +77,9 @@ background-color: rgb(255, 255, 255);</string>
           </item>
           <item row="1" column="0">
            <widget class="QLabel" name="label_2">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 85, 127);</string>
+            </property>
             <property name="text">
              <string>Horas:</string>
             </property>
@@ -92,6 +95,9 @@ background-color: rgb(255, 255, 255);</string>
         <widget class="QGroupBox" name="groupBox">
          <property name="styleSheet">
           <string notr="true">color: rgb(18, 141, 106);;
+color: rgb(0, 85, 255);
+color: rgb(115, 115, 115);
+background-color: rgb(130, 130, 130);
 background-color: rgb(255, 255, 255);</string>
          </property>
          <property name="title">
@@ -100,6 +106,9 @@ background-color: rgb(255, 255, 255);</string>
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
            <widget class="QRadioButton" name="inMatutina">
+            <property name="styleSheet">
+             <string notr="true">font: 9pt &quot;Segoe UI&quot;;</string>
+            </property>
             <property name="text">
              <string>Matutina</string>
             </property>
@@ -150,6 +159,9 @@ background-color: rgb(255, 255, 255);</string>
           </item>
           <item>
            <widget class="QPushButton" name="btnCalcular">
+            <property name="styleSheet">
+             <string notr="true">color: rgb(0, 85, 255);</string>
+            </property>
             <property name="text">
              <string>&amp;Calcular</string>
             </property>
@@ -178,6 +190,7 @@ background-color: rgb(255, 255, 255);</string>
      <widget class="QWidget" name="widget_2" native="true">
       <property name="styleSheet">
        <string notr="true">color: rgb(18, 141, 106);
+background-color: rgb(115, 115, 115);
 background-color: rgb(255, 255, 255);
 </string>
       </property>
@@ -203,7 +216,7 @@ background-color: rgb(255, 255, 255);
      <x>0</x>
      <y>0</y>
      <width>754</width>
-     <height>22</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuArchivo">
